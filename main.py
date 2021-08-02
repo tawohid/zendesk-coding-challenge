@@ -1,7 +1,8 @@
+from creds import CREDENTIALS
+from zenpy import Zenpy
 
-def print_hi(name):
-    print(f'Hi, {name}')
-
+zenpy_client = Zenpy(**CREDENTIALS)
 
 if __name__ == '__main__':
-    print_hi('Zendesk')
+    for ticket in zenpy_client.tickets():
+        print(ticket.subject)
