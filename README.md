@@ -1,5 +1,5 @@
 # zendesk-coding-challenge
-A command line Python application for interacting with the Zendesk API specifcaly for https://zccsupport.zendesk.com/ 
+A command line Python application for interacting with the Zendesk API specifically for https://zccsupport.zendesk.com/ 
 
 ## Prerequisite
 - Python 3
