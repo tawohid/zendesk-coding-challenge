@@ -1,6 +1,6 @@
 import os
 
-# Replace with given bearer token
+# Replace with given bearer token or add given bearer token to environment variables as such
 bearer_token = os.environ.get('BEARER_TOKEN')
 header = {'Authorization': 'Bearer ' + bearer_token}
 
