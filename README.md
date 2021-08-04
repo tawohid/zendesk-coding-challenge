@@ -34,3 +34,11 @@ $ python3 main.py
 
 ![Preview](https://i.imgur.com/HxY6nKp.png)
 
+# Testing
+
+Run tests using pytest
+
+```
+$ pip install pytest
+$ pytest unittest.py
+```
