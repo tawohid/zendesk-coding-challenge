@@ -5,7 +5,7 @@ A command line Python application for interacting with the Zendesk API specifica
 - Python 3
 
 
-# Instructions 
+## Instructions 
 
 1. Download via Github via git clone (below) or download zip
 
@@ -34,7 +34,7 @@ $ python3 main.py
 
 ![Preview](https://i.imgur.com/HxY6nKp.png)
 
-# Testing
+## Testing
 
 Run tests using pytest
 
